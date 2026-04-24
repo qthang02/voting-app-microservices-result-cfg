@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: result
-          image: thang909/voting-app-microservice-result-svc:6
+          image: thang909/voting-app-microservices-result-svc:6
           ports:
             - containerPort: 80
           envFrom:
